@@ -1,5 +1,5 @@
 import NavBar from "./NavBar/NavBar"
-import HomeSection from "./Home/Home"
+import HomeSection from "./HomeSection /HomeSection"
 
 function Home() {
     return ( 
