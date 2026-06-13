@@ -1,15 +1,16 @@
 import "./HomeSection.css";
-import profilePic from "./picture.jpg";
+
+import profilePic from "../../assets/picture.jpg";
 
 function HomeSection() {
   return (
-    <section className="home-section">
+    
+    <section id="home" className="home-section">
       <div className="background-glow glow-1"></div>
       <div className="background-glow glow-2"></div>
 
       <div className="home-content">
 
-        {/* LEFT SIDE */}
         <div className="text-content">
 
           <p className="welcome-text">
@@ -34,9 +35,7 @@ function HomeSection() {
           </div>
 
           <p className="description">
-            I enjoy building scalable applications, creating beautiful
-            user experiences, reading books, capturing moments through
-            photography, and continuously learning new technologies.
+            I’m passionate about building applications and creating impactful digital experiences.
           </p>
 
           <div className="social-links">
@@ -65,7 +64,7 @@ function HomeSection() {
 
         </div>
 
-        {/* RIGHT SIDE */}
+  
         <div className="image-content">
           <div className="image-wrapper">
             {/* <img src="picture.jpg" alt="Ashirwad Kumar" /> */}
