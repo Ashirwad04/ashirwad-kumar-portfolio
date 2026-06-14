@@ -55,14 +55,14 @@ function App() {
 
 
 
-
+//project Section Routes
       <Route path="/projects/creator" element={<Creator />} />
-<Route path="/projects/crm" element={<Crm />} />
-<Route path="/projects/integrations" element={<ZohoIntegration />} />
-<Route path="/projects/react" element={<ReactProject />} />
-<Route path="/projects/learning" element={<Learning />} />
-<Route path="/projects/java" element={<JavaBackend />} />
-<Route path="/projects/fun" element={<Fun />} />
+      <Route path="/projects/crm" element={<Crm />} />
+      <Route path="/projects/integrations" element={<ZohoIntegration />} />
+      <Route path="/projects/react" element={<ReactProject />} />
+      <Route path="/projects/learning" element={<Learning />} />
+      <Route path="/projects/java" element={<JavaBackend />} />
+      <Route path="/projects/fun" element={<Fun />} />
 
     </Routes>
   );
