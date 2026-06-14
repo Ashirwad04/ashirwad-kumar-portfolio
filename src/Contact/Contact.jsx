@@ -22,8 +22,8 @@ function Contact() {
 
           <div className="social-links">
             <a href="https://github.com/Ashirwad04">GitHub</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Instagram</a>
+            <a href="https://www.linkedin.com/in/ashirwad-kumar-06517b253/">LinkedIn</a>
+            <a href="https://www.instagram.com/ashirwad_shandilya/">Instagram</a>
           </div>
         </div>
 

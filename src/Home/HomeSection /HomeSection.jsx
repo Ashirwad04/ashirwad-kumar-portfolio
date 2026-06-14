@@ -1,6 +1,5 @@
 import "./HomeSection.css";
 
-import profilePic from "../../assets/picture.jpg";
 
 function HomeSection() {
   return (
@@ -40,23 +39,23 @@ function HomeSection() {
 
           <div className="social-links">
 
-            <a href="https://github.com" target="_blank" rel="noreferrer">
+            <a href="https://github.com/Ashirwad04" target="_blank" rel="noreferrer">
               GitHub
             </a>
 
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/ashirwad-kumar-06517b253/" target="_blank" rel="noreferrer">
               LinkedIn
             </a>
 
-            <a href="https://twitter.com" target="_blank" rel="noreferrer">
+            <a href="https://x.com/AshirwadKu37710" target="_blank" rel="noreferrer">
               Twitter
             </a>
 
-            <a href="https://facebook.com" target="_blank" rel="noreferrer">
+            <a href="https://www.facebook.com/whyuwanttoknowit" target="_blank" rel="noreferrer">
               Facebook
             </a>
 
-            <a href="https://instagram.com" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/ashirwad_shandilya/?hl=en" target="_blank" rel="noreferrer">
               Instagram
             </a>
 
@@ -65,13 +64,14 @@ function HomeSection() {
         </div>
 
   
-        <div className="image-content">
-          <div className="image-wrapper">
-            {/* <img src="picture.jpg" alt="Ashirwad Kumar" /> */}
-             <img src={profilePic} alt="Ashirwad Kumar" />
-          </div>
-        </div>
-
+     <div className="image-content">
+  <div className="image-wrapper">
+    <img
+      src="https://drive.google.com/thumbnail?id=1Vvk-U1-u_-06bbdh3NUdq7JSg8X8PCXb&sz=w1000"
+      alt="Ashirwad Kumar"
+    />
+  </div>
+</div>
       </div>
     </section>
   );

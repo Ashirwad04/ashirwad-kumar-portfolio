@@ -35,7 +35,7 @@ function Footer() {
           <h3>Connect</h3>
 
           <a
-            href="https://github.com/"
+            href="https://github.com/Ashirwad04"
             target="_blank"
             rel="noreferrer"
           >
@@ -43,7 +43,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/ashirwad-kumar-06517b253/"
             target="_blank"
             rel="noreferrer"
           >
@@ -59,7 +59,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://twitter.com/"
+            href="https://x.com/AshirwadKu37710"
             target="_blank"
             rel="noreferrer"
           >
