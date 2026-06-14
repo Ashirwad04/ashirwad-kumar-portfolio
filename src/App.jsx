@@ -15,6 +15,18 @@ import Footer from "./Footer/Footer";
 
 
 
+//Project Section import
+import Creator from "./Explore/Projects/ZohoCreator/Creator";
+import Crm from "./Explore/Projects/ZohoCrm/Crm";
+import ZohoIntegration from "./Explore/Projects/ZohoIntegration/ZohoIntegration";
+import ReactProject from "./Explore/Projects/React/ReactProeject";
+import Learning from "./Explore/Projects/Learning/Learnign";
+import JavaBackend from "./Explore/Projects/JavaBackend/java";
+import Fun from "./Explore/Projects/FunProject/fun";
+
+
+
+
 
 
 function App() {
@@ -40,6 +52,17 @@ function App() {
       <Route path="/photography" element={<Photography />} />
       <Route path="/books" element={<Books />} />
       <Route path="/blogs" element={<Blogs />} />
+
+
+
+
+      <Route path="/projects/creator" element={<Creator />} />
+<Route path="/projects/crm" element={<Crm />} />
+<Route path="/projects/integrations" element={<ZohoIntegration />} />
+<Route path="/projects/react" element={<ReactProject />} />
+<Route path="/projects/learning" element={<Learning />} />
+<Route path="/projects/java" element={<JavaBackend />} />
+<Route path="/projects/fun" element={<Fun />} />
 
     </Routes>
   );
