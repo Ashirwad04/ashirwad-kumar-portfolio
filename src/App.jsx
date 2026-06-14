@@ -10,6 +10,8 @@ import Photography from "./Explore/Photography/Photography";
 import Books from "./Explore/Books/Books";
 import Blogs from "./Explore/Blogs/Blogs";
 import Education from "./Education/Education";
+import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
 
 
 
@@ -28,6 +30,8 @@ function App() {
             <Skill />
             <Explore />
             <Education />
+            <Contact />
+            <Footer />
           </>
         }
       />
