@@ -14,12 +14,7 @@ function Photography() {
     description: "Creative and artistic compositions.",
     route: "/photography/creative"
   },
-  {
-    title: "Nature",
-    icon: "🌿",
-    description: "Landscapes, flowers, mountains and nature.",
-    route: "/photography/nature"
-  },
+  
   {
     title: "Portrait",
     icon: "📸",
@@ -37,6 +32,12 @@ function Photography() {
     icon: "✈️",
     description: "Memories and stories from different places.",
     route: "/photography/travel"
+  },
+  {
+    title: "Nature",
+    icon: "🌿",
+    description: "Landscapes, flowers, mountains and nature.",
+    route: "/photography/nature"
   },
   {
     title: "Wildlife",
