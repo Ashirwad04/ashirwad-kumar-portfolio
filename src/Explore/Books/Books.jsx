@@ -56,7 +56,7 @@ function Books() {
 
     {
       emoji: "📚",
-      title: "Banas Ka Gunda",
+      title: "Gunda",
       author: "Pandey Bechan Sharma 'Ugra'",
       theme: "Society • Culture",
       desc: "A powerful work reflecting social realities."
@@ -110,7 +110,7 @@ function Books() {
         onClick={() => navigate(-1)}
       >
         ← Back
-      </button>
+      </button> 
 
       <div className="books-header">
         <h1>📚 My Library</h1>
