@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent section heading from hiding behind navbar */
+section {
+  scroll-margin-top: 120px;
+}
+
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 92%;
+  max-width: 1400px;
+  height: 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 35px;
+
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(20px);
+
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  z-index: 1000;
+
+  animation: navbarDrop 1s ease;
+}
+
+@keyframes navbarDrop {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.logo h2 {
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logo h2:hover {
+  color: #38bdf8;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  bottom: -8px;
+
+  width: 0;
+  height: 2px;
+
+  background: #38bdf8;
+  transition: 0.4s;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* HAMBURGER */
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 28px;
+  height: 3px;
+  background: white;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+
+    top: 95px;
+    left: 0;
+
+    width: 100%;
+
+    background: rgba(15, 23, 42, 0.98);
+    backdrop-filter: blur(20px);
+
+    border-radius: 20px;
+
+    flex-direction: column;
+    align-items: center;
+
+    padding: 25px 0;
+    gap: 25px;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(-20px);
+    transition: 0.4s ease;
+  }
+
+  .show-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .navbar {
+    height: 80px;
+  }
+}
