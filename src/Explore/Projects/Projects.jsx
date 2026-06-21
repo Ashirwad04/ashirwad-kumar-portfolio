@@ -69,7 +69,7 @@ function Projects() {
         className="back-btn"
         onClick={() => navigate("/")}
       >
-        ← Back To Portfolio
+        ← Back
       </button>
 
       <div className="projects-header">

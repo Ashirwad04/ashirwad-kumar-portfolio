@@ -4,7 +4,7 @@
   box-sizing:border-box;
 }
 
-.wildlife-section{
+.react-section{
   min-height:100vh;
   background:#020617;
 
@@ -29,7 +29,7 @@
 .glow-1{
   width:350px;
   height:350px;
-  background:rgba(34,197,94,.15);
+  background:rgba(97,218,251,.15);
 
   top:5%;
   left:5%;
@@ -38,7 +38,7 @@
 .glow-2{
   width:400px;
   height:400px;
-  background:rgba(234,179,8,.15);
+  background:rgba(59,130,246,.15);
 
   right:5%;
   bottom:5%;
@@ -70,14 +70,16 @@
 }
 
 .back-btn:hover{
-  background:#22c55e;
+  background:#61dafb;
+  color:#020617;
+
   transform:translateY(-4px);
 }
 
 /* Card */
 
-.wildlife-card{
-  max-width:800px;
+.react-card{
+  max-width:850px;
   width:100%;
 
   text-align:center;
@@ -95,27 +97,27 @@
   z-index:5;
 }
 
-.wildlife-icon{
+.react-icon{
   font-size:5rem;
   margin-bottom:25px;
 }
 
-.wildlife-card h1{
+.react-card h1{
   font-size:3.5rem;
+
   margin-bottom:25px;
 
   background:linear-gradient(
     90deg,
-    #22c55e,
-    #eab308
+    #61dafb,
+    #3b82f6
   );
 
-  background-clip:text;
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
 }
 
-.wildlife-card p{
+.react-card p{
   color:#cbd5e1;
 
   font-size:1.1rem;
@@ -130,11 +132,11 @@
 
   padding:15px 30px;
 
-  background:rgba(34,197,94,.15);
+  background:rgba(97,218,251,.15);
 
-  border:1px solid rgba(34,197,94,.3);
+  border:1px solid rgba(97,218,251,.3);
 
-  color:#22c55e;
+  color:#61dafb;
 
   border-radius:40px;
 
@@ -162,19 +164,20 @@
     padding:12px 20px;
   }
 
-  .wildlife-card{
+  .react-card{
     padding:40px 25px;
   }
 
-  .wildlife-icon{
+  .react-icon{
     font-size:4rem;
   }
 
-  .wildlife-card h1{
+  .react-card h1{
     font-size:2.4rem;
   }
 
-  .wildlife-card p{
+  .react-card p{
     font-size:1rem;
   }
+
 }
