@@ -1,3 +1,4 @@
+
 import "./Fun.css";
 import { useNavigate } from "react-router-dom";
 
@@ -46,5 +47,8 @@ function FunProject() {
     </section>
   );
 }
+
+
+
 
 export default FunProject;

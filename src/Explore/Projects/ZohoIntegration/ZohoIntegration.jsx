@@ -2,7 +2,6 @@ import "./ZohoIntegration.css";
 import { useNavigate } from "react-router-dom";
 
 function ZohoIntegration() {
-
   const navigate = useNavigate();
 
   return (

@@ -2,7 +2,6 @@ import "./Java.css";
 import { useNavigate } from "react-router-dom";
 
 function Java() {
-
   const navigate = useNavigate();
 
   return (

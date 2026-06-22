@@ -2,7 +2,6 @@ import "./Crm.css";
 import { useNavigate } from "react-router-dom";
 
 function Crm() {
-
   const navigate = useNavigate();
 
   return (
@@ -29,8 +28,8 @@ function Crm() {
         <p>
           Explore CRM solutions and automation workflows developed
           using Zoho CRM. These projects demonstrate my expertise in
-          module customization, Blueprints, Deluge scripting, API
-          integrations, and building efficient business processes.
+          module customization, Blueprint automation, Deluge scripting,
+          API integrations, and building efficient business processes.
         </p>
 
         <div className="coming-soon">

@@ -2,7 +2,6 @@ import "./Books.css";
 import { useNavigate } from "react-router-dom";
 
 function Books() {
-
   const navigate = useNavigate();
 
   const books = [
@@ -13,7 +12,6 @@ function Books() {
       theme: "Identity • Alienation • Transformation",
       desc: "A thought-provoking novella that explores identity and human connections."
     },
-
     {
       emoji: "📚",
       title: "Crime and Punishment",
@@ -21,7 +19,6 @@ function Books() {
       theme: "Morality • Guilt • Redemption",
       desc: "A psychological masterpiece examining conscience and redemption."
     },
-
     {
       emoji: "📚",
       title: "White Nights",
@@ -29,7 +26,6 @@ function Books() {
       theme: "Loneliness • Love • Dreams",
       desc: "A beautiful story about hope and fleeting human connections."
     },
-
     {
       emoji: "📚",
       title: "Notes from Underground",
@@ -37,7 +33,6 @@ function Books() {
       theme: "Human Nature • Society • Self-awareness",
       desc: "A philosophical work exploring contradictions in human behavior."
     },
-
     {
       emoji: "📚",
       title: "Godan",
@@ -45,7 +40,6 @@ function Books() {
       theme: "Rural Life • Social Injustice",
       desc: "A timeless classic portraying the struggles of ordinary people."
     },
-
     {
       emoji: "📚",
       title: "Do Bailon Ki Katha",
@@ -53,7 +47,6 @@ function Books() {
       theme: "Friendship • Loyalty • Compassion",
       desc: "A touching story highlighting values through animals."
     },
-
     {
       emoji: "📚",
       title: "Gunda",
@@ -61,7 +54,6 @@ function Books() {
       theme: "Society • Culture",
       desc: "A powerful work reflecting social realities."
     },
-
     {
       emoji: "📚",
       title: "Deewar Mein Ek Khidki Rahti Thi",
@@ -70,47 +62,43 @@ function Books() {
       desc: "A poetic novel that discovers beauty in ordinary experiences."
     },
     {
-  emoji: "📚",
-  title: "1984",
-  author: "George Orwell",
-  theme: "Totalitarianism • Surveillance • Freedom",
-  desc: "A dystopian classic that explores the dangers of authoritarianism and the loss of individual freedom."
-},
-
-{
-  emoji: "📚",
-  title: "Animal Farm",
-  author: "George Orwell",
-  theme: "Power • Politics • Revolution",
-  desc: "A satirical novella that uses animals to portray how power can corrupt ideals and societies."
-},
-
-{
-  emoji: "📚",
-  title: "The Trial",
-  author: "Franz Kafka",
-  theme: "Bureaucracy • Alienation • Absurdity",
-  desc: "A haunting novel about a man trapped in an incomprehensible legal system, reflecting uncertainty and isolation."
-},
-
-{
-  emoji: "📚",
-  title: "Letter to His Father",
-  author: "Franz Kafka",
-  theme: "Family • Conflict • Self-Reflection",
-  desc: "A deeply personal and emotional letter revealing Kafka's complicated relationship with his father and his inner struggles."
-},
+      emoji: "📚",
+      title: "1984",
+      author: "George Orwell",
+      theme: "Totalitarianism • Surveillance • Freedom",
+      desc: "A dystopian classic that explores the dangers of authoritarianism and the loss of individual freedom."
+    },
+    {
+      emoji: "📚",
+      title: "Animal Farm",
+      author: "George Orwell",
+      theme: "Power • Politics • Revolution",
+      desc: "A satirical novella that uses animals to portray how power can corrupt ideals and societies."
+    },
+    {
+      emoji: "📚",
+      title: "The Trial",
+      author: "Franz Kafka",
+      theme: "Bureaucracy • Alienation • Absurdity",
+      desc: "A haunting novel about a man trapped in an incomprehensible legal system."
+    },
+    {
+      emoji: "📚",
+      title: "Letter to His Father",
+      author: "Franz Kafka",
+      theme: "Family • Conflict • Self-Reflection",
+      desc: "A deeply personal and emotional letter revealing Kafka's inner struggles."
+    }
   ];
 
   return (
     <section className="books-page">
-
       <button
         className="back-btn"
         onClick={() => navigate(-1)}
       >
         ← Back
-      </button> 
+      </button>
 
       <div className="books-header">
         <h1>📚 My Library</h1>
@@ -124,10 +112,7 @@ function Books() {
       <div className="books-grid">
         {books.map((book, index) => (
           <div className="book-card" key={index}>
-
-            <div className="book-icon">
-              {book.emoji}
-            </div>
+            <div className="book-icon">{book.emoji}</div>
 
             <h2>{book.title}</h2>
 
@@ -136,13 +121,11 @@ function Books() {
             <span>{book.theme}</span>
 
             <p>{book.desc}</p>
-
           </div>
         ))}
       </div>
 
       <div className="author-section">
-
         <h1>✍ Favorite Authors</h1>
 
         <div className="authors">
@@ -151,11 +134,9 @@ function Books() {
           <div className="author-card">🇨🇿 Franz Kafka</div>
           <div className="author-card">🇬🇧 George Orwell</div>
         </div>
-
       </div>
 
       <div className="exploring-section">
-
         <h1>🔎 Currently Exploring</h1>
 
         <div className="topics">
@@ -165,9 +146,7 @@ function Books() {
           <div className="topic-card">Psychology</div>
           <div className="topic-card">Human Nature</div>
         </div>
-
       </div>
-
     </section>
   );
 }

@@ -26,6 +26,7 @@ import Fun from "./Explore/Projects/FunProject/fun";
 
 
 
+
 //Photography Section import
 import Creative from "./Explore/Photography/Creative/Creative";
 import Nature from "./Explore/Photography/Nature/Nature";
@@ -33,6 +34,8 @@ import Portrait from "./Explore/Photography/Portrait/Portrait";
 import Street from "./Explore/Photography/Street/Street";
 import Travel from "./Explore/Photography/Travel/Travel";
 import Wildlife from "./Explore/Photography/Wildlife/Wildlife";
+
+
 
 
 
@@ -68,11 +71,16 @@ function App() {
 //project Section Routes
       <Route path="/projects/creator" element={<Creator />} />
       <Route path="/projects/crm" element={<Crm />} />
+
       <Route path="/projects/integrations" element={<ZohoIntegration />} />s
+
+      <Route path="/projects/integrations" element={<ZohoIntegration />} />
+
       <Route path="/projects/react" element={<ReactProject />} />
       <Route path="/projects/learning" element={<Learning />} />
       <Route path="/projects/java" element={<JavaBackend />} />
       <Route path="/projects/fun" element={<Fun />} />
+
 
 
 //Photography Section Routes
@@ -82,6 +90,7 @@ function App() {
       <Route path="/photography/street" element={<Street />} />
       <Route path="/photography/travel" element={<Travel />} />
       <Route path="/photography/wildlife" element={<Wildlife />} />
+
 
     </Routes>
   );

@@ -8,56 +8,43 @@ function Projects() {
     {
       title: "Zoho Creator Projects",
       icon: "🚀",
-      description:
-        "Custom business applications built using Zoho Creator.",
+      description: "Custom business applications built using Zoho Creator.",
       route: "/projects/creator",
     },
-
     {
       title: "Zoho CRM Projects",
       icon: "📊",
-      description:
-        "CRM automation, workflows, blueprints and client solutions.",
+      description: "CRM automation, workflows, blueprints and client solutions.",
       route: "/projects/crm",
     },
-
     {
       title: "Zoho Integration Projects",
       icon: "🔗",
-      description:
-        "Integrations between Zoho applications and third-party platforms.",
+      description: "Integrations between Zoho applications and third-party platforms.",
       route: "/projects/integrations",
     },
-
     {
       title: "Java Backend Projects",
       icon: "☕",
-      description:
-        "Spring Boot, REST APIs, backend services and microservices.",
+      description: "Spring Boot, REST APIs, backend services and microservices.",
       route: "/projects/java",
     },
-
     {
       title: "React Projects",
       icon: "⚛️",
-      description:
-        "Modern frontend applications built using React.",
+      description: "Modern frontend applications built using React.",
       route: "/projects/react",
     },
-
     {
       title: "Fun Projects",
       icon: "🎮",
-      description:
-        "Creative and experimental projects developed for fun.",
+      description: "Creative and experimental projects developed for fun.",
       route: "/projects/fun",
     },
-
     {
       title: "Learning Projects",
       icon: "📚",
-      description:
-        "Projects created while learning new technologies.",
+      description: "Projects created while learning new technologies.",
       route: "/projects/learning",
     },
   ];
@@ -69,7 +56,7 @@ function Projects() {
         className="back-btn"
         onClick={() => navigate("/")}
       >
-        ← Back
+        ← Back To Portfolio
       </button>
 
       <div className="projects-header">
@@ -82,7 +69,6 @@ function Projects() {
       </div>
 
       <div className="projects-grid">
-
         {projectCategories.map((project, index) => (
           <div
             key={index}
@@ -102,7 +88,6 @@ function Projects() {
             </button>
           </div>
         ))}
-
       </div>
 
     </section>
