@@ -1,10 +1,17 @@
 import "./Portrait.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../../hooks/useMeta";
 
 function Portrait() {
   const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState(1);
+  useMeta({
+    title: "Portrait Photography — Ashirwad Kumar",
+    description: "Portrait photography by Ashirwad Kumar — emotions, expressions, candid moments, and Holi color celebrations.",
+    keywords: "portrait photography, candid portraits, Holi photography, Ashirwad Kumar",
+    url: "https://ashirwadkumar.com/photography/portrait",
+  });
   const photosPerPage = 6;
 
   const photos = [

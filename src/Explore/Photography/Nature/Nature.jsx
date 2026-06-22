@@ -1,8 +1,15 @@
 import "./Nature.css";
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../../hooks/useMeta";
 
 function Nature() {
   const navigate = useNavigate();
+  useMeta({
+    title: "Nature Photography — Ashirwad Kumar",
+    description: "Nature photography by Ashirwad Kumar — landscapes, mountains, rivers, forests, and sunsets from travels across India.",
+    keywords: "nature photography, landscape, mountains, rivers, Ashirwad Kumar",
+    url: "https://ashirwadkumar.com/photography/nature",
+  });
 
   return (
     <section className="nature-section">

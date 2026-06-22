@@ -1,10 +1,17 @@
 import "./Creative.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../../hooks/useMeta";
 
 function Creative() {
   const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState(1);
+  useMeta({
+    title: "Creative Photography — Ashirwad Kumar",
+    description: "Creative photography gallery by Ashirwad Kumar — light experiments, mirror reflections, fire compositions, and high-speed captures.",
+    keywords: "creative photography, light photography, fire photography, Ashirwad Kumar",
+    url: "https://ashirwadkumar.com/photography/creative",
+  });
   const photosPerPage = 6;
 
   const photos = [

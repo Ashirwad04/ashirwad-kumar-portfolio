@@ -1,8 +1,15 @@
 import "./ZohoIntegration.css";
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../../hooks/useMeta";
 
 function ZohoIntegration() {
   const navigate = useNavigate();
+  useMeta({
+    title: "Zoho Integration Projects — Ashirwad Kumar",
+    description: "Cross-platform integration projects by Ashirwad Kumar using APIs, webhooks, Deluge scripting, and Zoho ecosystem tools.",
+    keywords: "Zoho integration, API integration, webhooks, Deluge, Zoho ecosystem, Ashirwad Kumar",
+    url: "https://ashirwadkumar.com/projects/integrations",
+  });
 
   return (
     <section className="integration-section">

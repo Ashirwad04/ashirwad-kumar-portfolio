@@ -1,10 +1,17 @@
 import "./Street.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../../hooks/useMeta";
 
 function Stret() {
   const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState(1);
+  useMeta({
+    title: "Street Photography — Ashirwad Kumar",
+    description: "Street photography by Ashirwad Kumar — candid scenes from Bodh Gaya, Buddhist monks, market streets, and urban everyday life.",
+    keywords: "street photography, candid, Bodh Gaya, Buddhist monks, urban photography, Ashirwad Kumar",
+    url: "https://ashirwadkumar.com/photography/street",
+  });
   const photosPerPage = 6;
 
   const photos = [

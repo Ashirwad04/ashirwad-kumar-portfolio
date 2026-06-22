@@ -1,8 +1,15 @@
 import "./Projects.css";
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../hooks/useMeta";
 
 function Projects() {
   const navigate = useNavigate();
+  useMeta({
+    title: "Projects — Ashirwad Kumar",
+    description: "Explore software projects by Ashirwad Kumar across Zoho Creator, Zoho CRM, Java, React, and more.",
+    keywords: "Ashirwad Kumar projects, Zoho Creator, Zoho CRM, Java Spring Boot, React projects",
+    url: "https://ashirwadkumar.com/projects",
+  });
 
   const projectCategories = [
     {

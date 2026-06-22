@@ -1,10 +1,15 @@
-
 import "./Fun.css";
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../../hooks/useMeta";
 
 function FunProject() {
-
   const navigate = useNavigate();
+  useMeta({
+    title: "Fun Projects — Ashirwad Kumar",
+    description: "Creative and experimental side projects by Ashirwad Kumar — games, utilities, and fun ideas.",
+    keywords: "fun projects, creative coding, experimental, Ashirwad Kumar",
+    url: "https://ashirwadkumar.com/projects/fun",
+  });
 
   return (
     <section className="fun-section">

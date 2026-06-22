@@ -1,8 +1,14 @@
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../../hooks/useMeta";
 
 function Creator() {
-
   const navigate = useNavigate();
+  useMeta({
+    title: "Zoho Creator Projects — Ashirwad Kumar",
+    description: "Custom business applications built by Ashirwad Kumar using Zoho Creator.",
+    keywords: "Zoho Creator, custom apps, business applications, Ashirwad Kumar",
+    url: "https://ashirwadkumar.com/projects/creator",
+  });
 
   return (
     <section className="creator-projects">

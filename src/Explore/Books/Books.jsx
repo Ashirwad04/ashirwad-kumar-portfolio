@@ -1,8 +1,15 @@
 import "./Books.css";
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../hooks/useMeta";
 
 function Books() {
   const navigate = useNavigate();
+  useMeta({
+    title: "Books — Ashirwad Kumar",
+    description: "Books that shaped Ashirwad Kumar's thinking — Kafka, Dostoevsky, Orwell, Premchand and more.",
+    keywords: "Ashirwad Kumar books, reading list, Kafka, Dostoevsky, George Orwell, Munshi Premchand",
+    url: "https://ashirwadkumar.com/books",
+  });
 
   const books = [
     {

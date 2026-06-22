@@ -1,8 +1,15 @@
 import "./Photography.css";
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../hooks/useMeta";
 
 function Photography() {
   const navigate = useNavigate();
+  useMeta({
+    title: "Photography — Ashirwad Kumar",
+    description: "Photography portfolio by Ashirwad Kumar — Creative, Portrait, Street, Travel, Nature, and Wildlife galleries.",
+    keywords: "Ashirwad Kumar photography, portrait photography, street photography, travel photography, nature wildlife",
+    url: "https://ashirwadkumar.com/photography",
+  });
 
   const categories = [
     {

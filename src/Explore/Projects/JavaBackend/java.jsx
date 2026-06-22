@@ -1,8 +1,15 @@
 import "./Java.css";
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../../hooks/useMeta";
 
 function Java() {
   const navigate = useNavigate();
+  useMeta({
+    title: "Java Backend Projects — Ashirwad Kumar",
+    description: "Java and Spring Boot backend projects by Ashirwad Kumar — REST APIs, database design, authentication, and microservices.",
+    keywords: "Java, Spring Boot, REST API, backend development, microservices, Ashirwad Kumar",
+    url: "https://ashirwadkumar.com/projects/java",
+  });
 
   return (
     <section className="java-section">

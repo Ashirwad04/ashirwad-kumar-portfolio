@@ -1,8 +1,15 @@
 import "./Wildlife.css";
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../../hooks/useMeta";
 
 function Wildlife() {
   const navigate = useNavigate();
+  useMeta({
+    title: "Wildlife Photography — Ashirwad Kumar",
+    description: "Wildlife photography by Ashirwad Kumar — birds, butterflies, and animals captured in their natural habitats.",
+    keywords: "wildlife photography, bird photography, nature wildlife, Ashirwad Kumar",
+    url: "https://ashirwadkumar.com/photography/wildlife",
+  });
 
   return (
     <section className="wildlife-section">

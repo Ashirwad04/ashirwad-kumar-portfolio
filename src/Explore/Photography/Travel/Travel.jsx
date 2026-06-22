@@ -1,10 +1,17 @@
 import "./Travel.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../../hooks/useMeta";
 
 function Travel() {
   const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState(1);
+  useMeta({
+    title: "Travel Photography — Ashirwad Kumar",
+    description: "Travel photography by Ashirwad Kumar — Bodh Gaya, Rishikesh, Haridwar, Buddha statues, Ganga Aarti, and solar eclipse.",
+    keywords: "travel photography, Bodh Gaya, Rishikesh, Haridwar, India travel, Ashirwad Kumar",
+    url: "https://ashirwadkumar.com/photography/travel",
+  });
   const photosPerPage = 6;
 
   const photos = [

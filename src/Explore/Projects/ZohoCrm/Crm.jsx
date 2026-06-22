@@ -1,8 +1,15 @@
 import "./Crm.css";
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../../hooks/useMeta";
 
 function Crm() {
   const navigate = useNavigate();
+  useMeta({
+    title: "Zoho CRM Projects — Ashirwad Kumar",
+    description: "Zoho CRM solutions by Ashirwad Kumar — module customization, Blueprint automation, Deluge scripting, and API integrations.",
+    keywords: "Zoho CRM, CRM automation, Deluge scripting, Blueprint, Ashirwad Kumar",
+    url: "https://ashirwadkumar.com/projects/crm",
+  });
 
   return (
     <section className="crm-section">

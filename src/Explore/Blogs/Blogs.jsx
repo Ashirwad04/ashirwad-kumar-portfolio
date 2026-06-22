@@ -1,8 +1,15 @@
 import "./Blogs.css";
 import { useNavigate } from "react-router-dom";
+import useMeta from "../../hooks/useMeta";
 
 function Blogs() {
   const navigate = useNavigate();
+  useMeta({
+    title: "Blogs — Ashirwad Kumar",
+    description: "Thoughts and blogs by Ashirwad Kumar on software development, React, Zoho, photography, travel, books, and personal growth.",
+    keywords: "Ashirwad Kumar blog, software development, React, Zoho, photography, travel, books",
+    url: "https://ashirwadkumar.com/blogs",
+  });
 
   const blogs = [
     {
