@@ -65,12 +65,12 @@ function HomeSection() {
 
   
      <div className="image-content">
-  <div className="image-wrapper">
-    <img
-      src="https://drive.google.com/thumbnail?id=1Vvk-U1-u_-06bbdh3NUdq7JSg8X8PCXb&sz=w1000"
-      alt="Ashirwad Kumar"
-    />
-  </div>
+<div className="image-wrapper">
+  <img
+    src="https://drive.google.com/thumbnail?id=1fmjoRI7sYjIArh2ivUlGvNUek7ghpZ-F&sz=w1000"
+    alt="Ashirwad Kumar"
+  />
+</div>
 </div>
       </div>
     </section>
