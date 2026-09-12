@@ -1,0 +1,319 @@
+
+.vaishno-page {
+    min-height: 100vh;
+    padding: 80px 10%;
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: white;
+}
+
+
+/* Back Button */
+
+.vaishno-back-btn {
+    padding: 12px 22px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #cbd5e1;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.vaishno-back-btn:hover {
+    background: #38bdf8;
+    color: #020617;
+    transform: translateX(-5px);
+}
+
+
+/* Header */
+
+.vaishno-header {
+    text-align: center;
+    max-width: 900px;
+    margin: 70px auto 50px;
+}
+
+.vaishno-icon {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.vaishno-header h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    color: #38bdf8;
+}
+
+.vaishno-header > p {
+    max-width: 750px;
+    margin: auto;
+    color: #cbd5e1;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.vaishno-meta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.vaishno-meta span {
+    padding: 10px 18px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #cbd5e1;
+    font-size: 0.9rem;
+}
+
+
+/* Hero */
+
+.vaishno-hero {
+    max-width: 1100px;
+    margin: 50px auto 80px;
+}
+
+.image-placeholder {
+    min-height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 25px;
+
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    color: #94a3b8;
+
+    box-shadow: 0 0 40px rgba(56, 189, 248, 0.08);
+}
+
+.image-placeholder span {
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+.image-placeholder p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+/* Main Content */
+
+.vaishno-content {
+    max-width: 850px;
+    margin: auto;
+}
+
+.vaishno-content .intro {
+    font-size: 1.35rem;
+    color: #e2e8f0;
+    line-height: 1.9;
+    margin-bottom: 60px;
+}
+
+.vaishno-content h2 {
+    color: #38bdf8;
+    font-size: 2rem;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.vaishno-content p {
+    color: #cbd5e1;
+    font-size: 1.08rem;
+    line-height: 1.9;
+    margin-bottom: 25px;
+}
+
+
+/* Content Images */
+
+.vaishno-image {
+    margin: 50px 0;
+}
+
+.vaishno-image .image-placeholder {
+    min-height: 400px;
+}
+
+
+/* Gallery */
+
+.vaishno-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    margin: 50px 0;
+}
+
+.gallery-placeholder {
+    min-height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    color: #94a3b8;
+
+    font-size: 3rem;
+
+    transition: 0.3s;
+}
+
+.gallery-placeholder:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 30px rgba(56, 189, 248, 0.15);
+}
+
+.gallery-placeholder span {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+
+/* Quote */
+
+.vaishno-quote {
+    margin: 60px 0;
+
+    padding: 35px;
+
+    border-left: 4px solid #38bdf8;
+
+    background: rgba(56, 189, 248, 0.05);
+
+    border-radius: 0 20px 20px 0;
+}
+
+.vaishno-quote p {
+    margin: 0;
+
+    color: #e2e8f0;
+
+    font-size: 1.3rem;
+
+    font-style: italic;
+
+    line-height: 1.8;
+}
+
+
+/* Footer */
+
+.vaishno-footer {
+    max-width: 850px;
+    margin: 80px auto 20px;
+
+    text-align: center;
+
+    padding-top: 40px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.back-blog-btn {
+    padding: 14px 25px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #38bdf8;
+
+    color: #0f172a;
+
+    font-weight: 600;
+
+    font-size: 1rem;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.back-blog-btn:hover {
+    transform: scale(1.05);
+
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.3);
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .vaishno-page {
+        padding: 60px 6%;
+    }
+
+    .vaishno-header {
+        margin-top: 50px;
+    }
+
+    .vaishno-header h1 {
+        font-size: 2.7rem;
+    }
+
+    .vaishno-header > p {
+        font-size: 1rem;
+    }
+
+    .vaishno-icon {
+        font-size: 3rem;
+    }
+
+    .vaishno-hero {
+        margin-bottom: 50px;
+    }
+
+    .image-placeholder {
+        min-height: 350px;
+    }
+
+    .vaishno-content .intro {
+        font-size: 1.15rem;
+    }
+
+    .vaishno-content h2 {
+        font-size: 1.6rem;
+    }
+
+    .vaishno-content p {
+        font-size: 1rem;
+    }
+
+    .vaishno-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-placeholder {
+        min-height: 250px;
+    }
+
+    .vaishno-quote {
+        padding: 25px;
+    }
+
+    .vaishno-quote p {
+        font-size: 1.1rem;
+    }
+}

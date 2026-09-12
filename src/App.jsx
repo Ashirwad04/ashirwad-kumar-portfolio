@@ -8,7 +8,10 @@ import Skill from "./Skills/Skill";
 import Explore from "./Explore/Explore";
 import Photography from "./Explore/Photography/Photography";
 import Books from "./Explore/Books/Books";
+
+//Blog Section import
 import Blogs from "./Explore/Blogs/Blogs";
+import VaishnoDevi from "./Explore/Blogs/Vaishno_Devi/Vaishno_Devi";
 import Education from "./Education/Education";
 import Contact from "./Contact/Contact";
 import Footer from "./Footer/Footer";
@@ -63,6 +66,10 @@ function App() {
 
       <Route path="/projects" element={<Projects />} />
       <Route path="/photography" element={<Photography />} />
+
+
+//Blog Section Routes
+      <Route path="/blogs/vaishno-devi" element={<VaishnoDevi />} />
       <Route path="/books" element={<Books />} />
       <Route path="/blogs" element={<Blogs />} />
 
