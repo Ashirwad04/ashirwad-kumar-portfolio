@@ -12,6 +12,12 @@ function Blogs() {
   });
 
   const blogs = [
+
+      {
+      emoji: "🛕",
+      title: "My Vaishno Devi Journey",
+      desc: "A spiritual journey to Vaishno Devi, filled with beautiful views, challenges, memories, and moments of reflection."
+    },
     {
       emoji: "💻",
       title: "My Journey into Software Development",
